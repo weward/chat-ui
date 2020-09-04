@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";   
+}
+body {
+    height: 100vh;
+}
+#button {
+    padding: 36px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    border: 1px solid black;
+    display: block;
+}
+.container {
+    height: 100vh;
+    /* background-color: red; */
+    background-color: #ffffff;
+    max-width: 320px;
+    width: 100%;
+    display: none;
+}
+#close-chat {
+    padding: 15px;
+    font-weight: 600;
+    color: #737373;
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+}
+.head-title {
+    padding: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #737373;
+}
+.title-highlight {
+    color: #438fde;
+    text-decoration: none;
+}
+/* Chat Body */
+.chat-body {
+    border: 1px solid #dadada;
+    min-height: 82vh;
+    max-height: 82vh;
+}
+#close-messages-btn {
+    font-size: 14px;
+    font-weight: 600;
+    color: #737373;
+    text-align: center;
+    padding: 5px;
+}
+.option-btn {
+    width: 269px;
+    padding: 9px;
+    margin: 5px 15px;
+}
+
+/* Chat Actions */
+#login-email {
+    padding: 24px 15px;
+}
+#input-email {
+    padding: 5px;
+    width: 218px;
+}
+#login {
+    padding: 4px;
+}
+.chat-actions {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+.action-message {
+    width: 250px;
+    padding-left: 5px;
+}
+.action-button {
+    align-self: center;
+}
+#send-btn {
+    padding-left: 5px;
+}
+#messages {
+    overflow-y: scroll;
+    height: 78vh;
+}
+.msg-bubble-right {
+    float: right;
+    padding: 15px;
+    background: #add8e6;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 14px;
+}
+.msg-bubble-left {
+    float: left;
+    padding: 15px;
+    background: #a9a9a9;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 14px;
+}
