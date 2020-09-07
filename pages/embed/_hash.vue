@@ -49,13 +49,13 @@ export default {
     toggleLiveChat() {
       this.$store.commit('embed/toggleLiveChat')
     }
-  }
-  // fetch(context) {
-  //   context.store
-  //     .dispatch('embed/getAppSettings', { hash: context.route.params.hash })
-  //     .then(() => {})
-  //     .catch(() => {})
-  // },
+  },
+  fetch() {
+    this.$store
+      .dispatch('embed/getAppSettings', { hash: this.$route.params.hash })
+      .then(() => {})
+      .catch(() => {})
+  },
 }
 </script>
 
